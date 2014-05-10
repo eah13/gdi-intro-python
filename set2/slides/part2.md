@@ -129,28 +129,14 @@ if x > 5:
     print 'Done evaluating the x > 10 block'
 print 'Done evaluating the x > 5 block'
 ```
+
 @@@
 
 ###Let's Develop It
 Write a program that uses if statements to determine what to do given some user input
 
 The code below is an example:
-```python
-health = 100
-print "A vicious warg is chasing you."
-print "Options:"
-print "1 - Hide in the cave."
-print "2 - Climb a tree."
-input_value = raw_input("Enter choice:")
-if input_value == '1':
-    print 'You hide in a cave.'
-    print 'The warg finds you and injures your leg with its claws'
-    health = health - 10
-elif input_value == '2':
-    print 'You climb a tree.'
-    print 'The warg eventually looses interest and wanders off'
-print "Game under construction. Come back later"
-```
+<iframe src="https://trinket.io/embed/python/536e547ac8e649be1c2a1656" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 Note: Let's develop it: 15 minutes
 @@@
 
